@@ -1,0 +1,23 @@
+# binaries and game data never belong in this repo
+*.exe
+*.dll
+*.sys
+*.bin
+*.sav
+*.pak
+*.utoc
+*.ucas
+*.tar.gz
+
+# dump / image artefacts
+textdump/
+dumpimg/
+mem133/
+variants/
+ks/
+shot/
+
+# local logs and scratch
+*.log
+__pycache__/
+*.pyc
